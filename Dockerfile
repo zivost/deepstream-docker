@@ -23,17 +23,17 @@ COPY ./config/users.yml /etc/deepstream/users.yml
 
 # LIST OF ENV VARIABLES SUPPORTED
 
-ENV DEEPSTREAM_PORT 6020 \
-    DEEPSTREAM_HOST "0.0.0.0" \
-    REDIS_MSG_HOST "127.0.0.1" \
-    REDIS_MSG_PORT 6379 \
-    REDIS_CACHE_HOST "127.0.0.1" \
+ENV DEEPSTREAM_PORT="6020" \
+    DEEPSTREAM_HOST="0.0.0.0" \
+    REDIS_MSG_HOST="127.0.0.1" \
+    REDIS_MSG_PORT="6379" \
+    REDIS_CACHE_HOST="127.0.0.1" \
     REDIS_CACHE_PORT 6379 \
-    MONGODB_CONNECTION_STRING "mongodb://user:pass@host:port" \
-    MONGODB_DATABASE "deepstream" \
-    MONGODB_COLLECTION "deepstream-records" \
-    MONGODB_SPLIT_CHAR "/" \
-    DEEPSTREAM_PASSWORD "RGZG5Sz1Vs++MsNfGaWULaPboKTvTNdqxKFPlAnoSOQ=2dj6ms28tuAzVTbUaFhsNg=="
+    MONGODB_CONNECTION_STRING="mongodb://user:pass@host:port" \
+    MONGODB_DATABASE="deepstream" \
+    MONGODB_COLLECTION="deepstream-records" \
+    MONGODB_SPLIT_CHAR="/" \
+    DEEPSTREAM_PASSWORD="RGZG5Sz1Vs++MsNfGaWULaPboKTvTNdqxKFPlAnoSOQ=2dj6ms28tuAzVTbUaFhsNg=="
    # DEEPSTREAM_PASS_PLAIN "p@123"
 
 # TODO : generate password based on plain password
