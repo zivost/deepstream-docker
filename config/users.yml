@@ -1,0 +1,6 @@
+deepdabster:
+  password: ${DEEPSTREAM_PASSWORD}
+  clientData:
+    favorite color: blue
+  serverData:
+    department: admin
